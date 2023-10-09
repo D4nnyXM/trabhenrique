@@ -1,0 +1,12 @@
+[{"id":1, "codBarras":7896022202101, "produto":""Macarrao Instantaneo
+85gr", "marca": "Renata", "modelo":" "feijão", "valor":1.15},
+{"id":2, "codBarras":7894904571956, "produto":"Margarina Doriana
+500gr", "marca":""Doriana", "modelo":"Com Sal", "valor" :6.99},
+{"id":"3", "codBarras": : "7897276400138", "produto":""Açucar
+5Kg", "marca":""Certano", "modelo":"C"istal", "valor": "12,99"},
+{"id":"4"," "codBarras" :"7897276400022", "produto":""Açucar
+2Kg" , "marca":" "Certano", "modelo":"cristal", "valor": #4,99"],
+{"id":"5", "codBarras":"891149200504", "produto":"Cerveja
+350ml", "marca":""Skot", ","modelo":"Pilsen", "valor":"3,,99"j,
+{"id":"6", "codBarras":"7891149010509", "produto": :"Cerveja 350ml
+lata", ,"marca" :"Brahma,"modelo" :"pilsen", ,"valor":"3,49")]

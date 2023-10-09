@@ -1,0 +1,31 @@
+url = http://reserva.laboratorio.app.br:10100
+
+endpoint Produto
+Dados do Produto->
+ {
+"id":"6",
+"codBarras" :"7891149010509",
+"produto":"Cerveja 350ml lata",
+"marca": "Brahma",
+"modelo":"pilsen"I,
+"valor":"3,49"
+ }
+ Listar produtos -> /produtos
+Método GET
+
+Listar produto X -> /produto/id
+sendo id o número de id do produto Ex: /produto/2
+Método GET
+
+Cadastrar produto /produto
+Método POST
+enviar os dados em formato JSON
+
+Editar produto /produto
+Método PUT
+enviar os dados em formato JSON
+
+Deletar produtor /produto/id
+Método DELETE
+send i id o número do id do produto ex? /produto/3
+
