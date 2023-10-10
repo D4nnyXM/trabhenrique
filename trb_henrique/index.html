@@ -112,12 +112,12 @@
                 }
             };
 
-            var id = document.getElementById("idProduto").value;
+            var id = parseInt(document.getElementById("idProduto").value);
             var codBarras = document.getElementById("codBarras").value;
             var produto = document.getElementById("produto").value;
             var marca = document.getElementById("marca").value;
             var modelo = document.getElementById("modelo").value;
-            var valor = document.getElementById("valor").value;
+            var valor = parseInt(document.getElementById("valor").value);
 
             const dados = {
                 id: id,
@@ -159,13 +159,12 @@
         }
 
         function editarProduto(idProduto, codBarras, produto, marca, modelo, valor) {
-            var id = idProduto;
-
+            var id = parseInt(document.getElementById("idProduto").value);
             var novoCodBarras = document.getElementById("codBarras").value;
             var novoProduto = document.getElementById("produto").value;
             var novaMarca = document.getElementById("marca").value;
             var novoModelo = document.getElementById("modelo").value;
-            var novoValor = document.getElementById("valor").value;
+            var novoValor = parseInt(document.getElementById("valor").value);
 
             const dados = {
                 id: id,
